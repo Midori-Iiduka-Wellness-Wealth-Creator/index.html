@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【即決の自由】人生の決定権を掌握する3ステップ戦略</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter (視認性のため) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background-color: #f8fafc; /* クリーンなライトグレーの背景 */
+        }
+        .hero-section {
+            /* 高級感のあるサファイアブルーからディープネイビーへのグラデーション */
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); 
+            color: white;
+            padding-top: 5rem; /* パディングを増やし、ゆとりを持たせる */
+            padding-bottom: 5rem;
+        }
+        .card {
+            /* 影を繊細に、高級感のある浮遊感を演出 */
+            box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.08), 0 2px 5px -1px rgba(0, 0, 0, 0.04);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px); /* 動きをやや大きく */
+            box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.15); /* ホバー時の影を濃くする */
+        }
+        .cta-button {
+            /* 白い光沢感を演出するため、シャドウとアニメーションを適用 */
+            box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.7); /* CTAカラーに合わせた影 */
+            animation: pulse-gold 2s infinite;
+        }
+        @keyframes pulse-gold {
+            0% { box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.5); }
+            70% { box-shadow: 0 0 0 20px rgba(217, 119, 6, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(217, 119, 6, 0); }
+        }
+        /* Mobile adjustment */
+        @media (max-width: 640px) {
+            .hero-section {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+            .step-container {
+                gap: 2rem; /* モバイルでもゆとりを持たせる */
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- ヒーローセクション (クリーンで信頼性の高いフック) -->
+    <header class="hero-section">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="text-xl font-medium mb-3 tracking-wider">飯塚みどり 🚀 プロフェッショナル・ウェルネス起業家</p>
+            <h1 class="text-5xl sm:text-6xl font-extrabold mb-4 leading-tight">
+                価格・時間を計算せず<br class="sm:hidden">
+                <span class="text-yellow-300">『それがいい』と即決できる人生</span>へ
+            </h1>
+            <p class="text-2xl sm:text-3xl font-light mt-6">
+                時間と経済の制約を破壊し、人生の決定権を掌握する<br>
+                <span class="font-bold border-b-2 border-yellow-300 pb-1">🎁 【即決の自由】3ステップ戦略ロードマップ</span>
+            </p>
+            <!-- 最終CTAの強調 (白ボタンで清潔感とクリック率を両立) -->
+            <a href="https://www.instagram.com/iiduka.midori/" target="_blank" class="inline-block mt-10 px-12 py-5 text-2xl font-black bg-white text-indigo-700 rounded-full shadow-xl hover:bg-gray-100 transition duration-300 cta-button">
+                今すぐロードマップを受け取る (DMで「即決」と送信)
+            </a>
+        </div>
+    </header>
+
+    <!-- ロードマップ本体 - 3ステップ構成 -->
+    <main class="py-20 px-4">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl font-extrabold text-center mb-16 text-gray-800 border-b-2 border-gray-300 pb-2">
+                即決の自由を可能にする3つの揺るがない土台
+            </h2>
+
+            <div class="space-y-16 step-container">
+                
+                <!-- STEP 1: 健康の土台 (ディープエメラルド: 質・科学) -->
+                <div class="card p-8 sm:p-10 bg-white rounded-3xl border-t-4 border-emerald-600">
+                    <div class="flex items-start">
+                        <span class="text-4xl font-extrabold text-emerald-700 mr-6 bg-emerald-50 p-4 rounded-full shadow-md">STEP 1</span>
+                        <div>
+                            <h3 class="text-3xl font-bold text-gray-900 mb-3">『揺るがない健康の土台』の確立</h3>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                どんなに経済的に成功しても、健康という土台が不安定では「人生の決定権」は常に脅かされます。科学的根拠に基づいた高品質なウェルネス製品群こそが、この土台を最短で確実なものにします。
+                            </p>
+                            <div class="bg-emerald-50 p-5 rounded-xl border border-emerald-200">
+                                <h4 class="font-bold text-emerald-800 mb-2 text-base">💡 ロードマップ内の具体アクション</h4>
+                                <ul class="list-disc list-inside text-sm text-gray-700 ml-4 space-y-1">
+                                    <li>「健康」を『消費』ではなく『投資』と捉え直すチェックリスト</li>
+                                    <li>日々のセルフケアに割く時間と、その投資対効果を評価する</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STEP 2: 経済の自由戦略 (ディープインディゴ: 安定・プロフェッショナル) -->
+                <div class="card p-8 sm:p-10 bg-white rounded-3xl border-t-4 border-indigo-600">
+                    <div class="flex items-start">
+                        <span class="text-4xl font-extrabold text-indigo-700 mr-6 bg-indigo-50 p-4 rounded-full shadow-md">STEP 2</span>
+                        <div>
+                            <h3 class="text-3xl font-bold text-gray-900 mb-3">『時間の制約を破壊する即決戦略』の導入</h3>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                時間と場所を選ばないウェルネス事業だからこそ、価格を計算せず即決できる**経済的自由**をもたらします。これは短期的な利益ではなく、「人」「パートナーシップ」「長期的戦略」を柱とする安定したビジネスモデルです。
+                            </p>
+                            <div class="bg-indigo-50 p-5 rounded-xl border border-indigo-200">
+                                <h4 class="font-bold text-indigo-800 mb-2 text-base">💡 ロードマップ内の具体アクション</h4>
+                                <ul class="list-disc list-inside text-sm text-gray-700 ml-4 space-y-1">
+                                    <li>「時間の制約」を洗い出すワークシート</li>
+                                    <li>毎月の固定費・変動費を**即決でカバーできる**副収入額の目標設定</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STEP 3: 哲学と波紋効果 (ディープシアン: 理念・ビジョン) -->
+                <div class="card p-8 sm:p-10 bg-white rounded-3xl border-t-4 border-cyan-600">
+                    <div class="flex items-start">
+                        <span class="text-4xl font-extrabold text-cyan-700 mr-6 bg-cyan-50 p-4 rounded-full shadow-md">STEP 3</span>
+                        <div>
+                            <h3 class="text-3xl font-bold text-gray-900 mb-3">『波紋効果』による人生の決定権のマスター</h3>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                真の成功は、他者への支援（人々の生活をより良くすること）と同時に達成されます。あなたの成長が家族を変え、コミュニティが変わる**『波紋効果』**を信条とすることで、あなたの人生の決定権と意義が確固たるものになります。
+                            </p>
+                            <div class="bg-cyan-50 p-5 rounded-xl border border-cyan-200">
+                                <h4 class="font-bold text-cyan-800 mb-2 text-base">💡 ロードマップ内の具体アクション</h4>
+                                <ul class="list-disc list-inside text-sm text-gray-700 ml-4 space-y-1">
+                                    <li>理念共有のための無料セッションへの誘導</li>
+                                    <li>「波紋効果」を意識した自己成長の意義の強調</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 最終CTAセクション (最下部の強力な誘導) -->
+    <section class="py-16 px-4 bg-gray-900 text-white text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl font-extrabold mb-4">
+                【重要】即決の自由を実現したい方へ
+            </h2>
+            <p class="text-2xl mb-10 font-light">
+                このロードマップに沿って、揺るがない土台と経済的自由を構築するための**無料個別戦略セッション**をご案内しています。
+            </p>
+            <!-- DM誘導を強く推奨 (リッチなアンバー/ゴールドで高級感とアクションを両立) -->
+            <a href="https://www.instagram.com/iiduka.midori/" target="_blank" class="inline-block px-14 py-6 text-3xl font-black bg-amber-500 hover:bg-amber-600 text-gray-900 rounded-full shadow-2xl transition duration-300 transform hover:scale-105 cta-button">
+                今すぐDMで「即決」と送る！
+            </a>
+            <p class="text-sm mt-4 text-gray-400">
+                （プロフリンクの**セッション予約フォーム**からもお申し込みいただけます）
+            </p>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="py-8 px-4 text-center text-gray-600 bg-white border-t border-gray-200">
+        <p class="text-sm">&copy; 飯塚みどり 🚀 即決の自由エディション</p>
+        <p class="text-sm mt-1 font-semibold text-indigo-700">スローガン: Better Together（一緒なら、もっといい）</p>
+    </footer>
+
+</body>
+</html>
